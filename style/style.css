@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Ukraine";
+    src: url("../fonts/e-Ukraine-Regular.otf");
+}
+
+@font-face {
+    font-family: "Ukraine-Head";
+    src: url("../fonts/e-UkraineHead-Regular.otf");
+}
+
+@font-face {
+    font-family: "Ukraine-Logo";
+    src: url("../fonts/e-UkraineHead-LOGO.otf");
+}
+
+body{
+    font-family: 'Ukraine', Helvetica, sans-serif;
+}
+p{
+    margin-bottom: 0.5rem !important;
+}
+header{
+    font-family: 'Ukraine-Logo', Helvetica, sans-serif;
+    background-color: #312783;
+    background-image: radial-gradient( circle 950px at 2.5% 8%,  #312783(44,103,176,1) 0%, rgb(21, 39, 110),1, 90% );
+    color: #f3f3f3;
+    width: 100%;
+}
+.header-title{
+    color: #FFED00;
+}
+
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo > a > img{
+    width: 16rem;
+}
+.company-name{
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.donate-link{
+    display: none;
+    justify-content: center;
+}
+.donate-link > a{
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 12px 20px;
+    border-radius: 0.5rem;
+    background-color: #FFED00;
+    border: 1px solid #FFED00;
+    color: #312783;
+    transition: all 1s ease;
+}
+
+.donate-link > a:hover{
+    transform: scale(0.95);
+}
+main{
+    font-family: 'Ukraine-Head', Helvetica, sans-serif;;
+}
+
+
+
+.title-faq{
+    font-size: 4rem;
+}
+
+.accordion-button{
+    font-size: 2rem !important;
+}
+
+.accordion-body{
+    font-family: 'Ukraine', Helvetica, sans-serif;
+}
+.accordion-button:not(.collapsed){
+    color: #f3f3f3 !important;
+    background-color: #312783 !important;
+}
+.accardion-step-title{
+    font-size: 1.2rem;
+}
+
+.request-link{
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 0.5rem;
+    border: 1px solid #312783;
+    color: #312783;
+    transition: all 0.3s ease-in-out;
+}
+
+.request-link:hover{
+    background-color: #312783;
+    color: #f3f3f3;
+}
+
+.link-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
