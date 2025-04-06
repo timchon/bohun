@@ -132,3 +132,8 @@ footer{
 .contact > a:hover{
     color: #FFED00;
 }
+
+.faq-сertification{
+    border: 1px solid #312783;
+    border-radius: 1rem;
+}
